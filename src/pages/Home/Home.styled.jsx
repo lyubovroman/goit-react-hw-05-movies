@@ -20,20 +20,27 @@ export const HomeTitle = styled.h1`
 
 export const MoviesList = styled.ul`
 display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+ padding-inline-start: 0;
 `;
 
 export const MoviesItem = styled.li`
-   border-radius: 8px;
+display: flex;   
+justify-content: center;
+    flex-direction: column;
+border-radius: 8px;
      flex-basis: calc((100% - 90px) / 4);
     overflow: hidden;
+   width: 352px;
    background-color: #C0C0A8;
-    display: flex;
+    
    
     justify-content: center;
     flex-direction: column;
-   
+   overflow: hidden;
     transition-duration: 250ms;
   transition-property: scale;
   transition-timing-function: ease-in-out;

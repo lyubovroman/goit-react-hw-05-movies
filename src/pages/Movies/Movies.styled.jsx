@@ -7,6 +7,7 @@ export const MoviesContainer = styled.div`
   margin: 30px;
   box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.67);
 padding: 20px 20px;
+background-color: #f2f2f2;
 `;
 
 export const MoviesForm = styled.form`
@@ -30,6 +31,12 @@ export const MoviesInput = styled.input`
     padding-right: 4px;
     background-color: rgba(55, 25, 87, 0.463);
     color: black;
+    &: hover{
+       scale: 1.02;
+    box-shadow: 0px 1px 2px rgb(255 0 249 / 31%),
+      0px 2px 4px rgb(255 0 245 / 50%), 0px 4px 8px rgb(255 235 0 / 31%),
+      0px 8px 16px rgb(255 247 254 / 35%);
+    };
 
 `;
 export const MoviesSearchBtn = styled.button`
@@ -42,7 +49,15 @@ display: inline-block;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
     cursor: pointer;
     outline: none;
+    opacity: 0,5;
     background-color: rgb(255, 189, 42);
+     &:hover {
+   background-color: red;
+    scale: 1.02;
+    box-shadow: 0px 1px 2px rgb(255 0 249 / 31%),
+      0px 2px 4px rgb(255 0 245 / 50%), 0px 4px 8px rgb(255 235 0 / 31%),
+      0px 8px 16px rgb(255 247 254 / 35%);
+  }
 
   }
   

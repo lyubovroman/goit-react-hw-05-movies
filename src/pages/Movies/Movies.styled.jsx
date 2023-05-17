@@ -65,6 +65,7 @@ display: inline-block;
 
 export const ItemImg = styled.img`
  width: 100%;
+ height: 370px;
 
     
    
@@ -86,16 +87,13 @@ export const ItemTitle = styled.p`
 }`;
 
 export const MoviesItem = styled.li`
- border-radius: 8px;
-   display: flex;   
+ display: flex;   
 justify-content: center;
     flex-direction: column;
 border-radius: 8px;
      flex-basis: calc((100% - 90px) / 4);
-    overflow: hidden;
-  
    background-color: #C0C0A8;
-   
+   overflow: hidden;
     transition-duration: 250ms;
   transition-property: scale;
   transition-timing-function: ease-in-out;
@@ -105,12 +103,13 @@ border-radius: 8px;
     scale: 1.02;
     box-shadow: 0px 1px 2px rgb(255 0 249 / 31%),
       0px 2px 4px rgb(255 0 245 / 50%), 0px 4px 8px rgb(255 235 0 / 31%),
-      0px 8px 16px rgb(255 247 254 / 35%);
+      0px 8px 16px rgb(255 247 254 / 35%);}
   }
 `;
 export const MoviesList = styled.ul`
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     padding-inline-start: 0;
+    
 }`;

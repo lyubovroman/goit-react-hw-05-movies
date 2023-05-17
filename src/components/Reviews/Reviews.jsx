@@ -11,9 +11,9 @@ const Rewievs = () => {
     useEffect(() => {
         const fetchMovieReviews = async (movieId) => {
             try {
-                const response = await axios.get(
-                    'https://api.themoviedb.org/3/movie/${movie_id}/reviews?api_key=${MY_KEY}&language=en-US&page=1'
-                );
+                 const response = await axios.get(
+          `https://api.themoviedb.org/3/movie/${movieId}/reviews?api_key=${MY_KEY}&language=en-US`
+        );
                 const data = response.data.results;
                 const filteredData = data.map(({ author, content, id }) => ({
                     id,

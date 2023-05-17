@@ -46,7 +46,7 @@ const Cast = () => {
               <CastItem key={id}>
                 <CastItemImg src={profile} alt={name} />
                 <CastName>{name}</CastName>
-                <CastText>Character: {character}</CastText>
+                <CastText>Character: {character || `no information`}</CastText>
               </CastItem>
             );
           })}

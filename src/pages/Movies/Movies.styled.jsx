@@ -72,13 +72,14 @@ export const ItemTitle = styled.p`
 
 export const MoviesItem = styled.li`
  border-radius: 8px;
+   display: flex;   
+justify-content: center;
+    flex-direction: column;
+border-radius: 8px;
      flex-basis: calc((100% - 90px) / 4);
     overflow: hidden;
+  
    background-color: #C0C0A8;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    flex-direction: column;
    
     transition-duration: 250ms;
   transition-property: scale;
@@ -96,4 +97,5 @@ export const MoviesList = styled.ul`
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-inline-start: 0;
 }`;

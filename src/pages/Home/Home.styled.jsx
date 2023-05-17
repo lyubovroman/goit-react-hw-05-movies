@@ -15,7 +15,7 @@ export const HomeTitle = styled.h1`
   text-align: center;
   padding: 20px;
   color: #333;
-   ?
+ 
 `;
 
 export const MoviesList = styled.ul`
@@ -33,13 +33,7 @@ justify-content: center;
     flex-direction: column;
 border-radius: 8px;
      flex-basis: calc((100% - 90px) / 4);
-    overflow: hidden;
-   width: 352px;
    background-color: #C0C0A8;
-    
-   
-    justify-content: center;
-    flex-direction: column;
    overflow: hidden;
     transition-duration: 250ms;
   transition-property: scale;

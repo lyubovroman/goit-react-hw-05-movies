@@ -28,7 +28,7 @@ export const CastItem = styled.li`
 
 export const CastItemImg = styled.img`
  width: 100%;
- height:270px;
+
 
 `;
 

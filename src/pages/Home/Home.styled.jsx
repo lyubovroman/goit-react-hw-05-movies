@@ -49,7 +49,7 @@ border-radius: 8px;
 
 export const MoviesImg = styled.img`
    width: 100%;
- height: 370px;
+
 `;
 
 export const MoviesTitle = styled.p`

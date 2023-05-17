@@ -65,7 +65,7 @@ display: inline-block;
 
 export const ItemImg = styled.img`
  width: 100%;
- height: 370px;
+
     
    
 `;

@@ -147,7 +147,7 @@ import { useState, useEffect } from "react";
 import { MoviesContainer, MoviesItem, MoviesForm, MoviesList, MoviesInput, MoviesSearchBtn, ItemTitle, ItemImg } from './Movies.styled';
 import { FcBinoculars } from "react-icons/fc";
 import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const MY_KEY = '801dae059c6d6328a7993480e6d71c49';

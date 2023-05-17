@@ -1,4 +1,4 @@
-import { useParams , useLocation, Link, Outlet} from "react-router-dom";
+import { useParams , useLocation,  Outlet} from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 import axios from 'axios';
 import Notiflix from 'notiflix';
